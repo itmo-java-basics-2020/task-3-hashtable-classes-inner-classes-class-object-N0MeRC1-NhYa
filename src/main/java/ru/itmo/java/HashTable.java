@@ -106,6 +106,7 @@ public class HashTable {
         }
     }
 
+
     private void ensureCapacity() {
         Entry[] newElements = elements;
         int newSize = 2 * elements.length;
